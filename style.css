@@ -1,0 +1,188 @@
+body {
+  font-family: Droid Sans, sans-serif;
+  background-color: white;
+}
+
+.topbar {
+  display: flex;
+  font-size: 13px;
+  justify-content: flex-end;
+  align-items: center;
+  max-height:15px;
+  margin-top:20px;
+  margin-right:15px;
+  }
+
+.Gmail{
+	text-decoration:none;
+	color:black;
+	margin-right:10px;
+}
+.Gmail:hover{
+	text-decoration:underline;
+	color:grey;
+}
+
+.Image {
+	text-decoration:none;
+	color:black;
+	margin-right:10px;
+}
+.Image:hover{
+	text-decoration: underline;
+	color:grey;
+}
+
+.menulogo {
+   width:17px;
+   margin-right:20px;
+}
+.menulogo:hover{
+	text-decoration: underline;
+	color:grey
+}
+
+.Connexion{
+	text-decoration: none;
+	color: white;
+    background-color: #4887ef; 
+    text-align: center;
+     padding: 5px 10px;
+     border-radius: 3px; 
+     font-weight: bold;
+}
+
+.logogoogle{
+	display:flex;
+	justify-content:center;
+	margin: 0 auto;
+	margin-top: 50px;
+	width:280px;
+}
+
+.searchbar{
+	display:flex;
+	border: 0.5px solid rgb(220,220,220);
+	justify-content: space-between;
+	align-items: center;
+	border-radius:30px;
+	max-width:600px;
+	max-height:40px;
+	height: 40px;
+	margin: auto;
+	margin-top: 30px;
+	flex-wrap: nowrap;
+
+}
+
+.searchbar:hover{
+	box-shadow: 2px 2px 4px 3px rgb(211,211,211);
+}
+
+.loupe{
+	width:20px;
+	margin-left:10px;
+}
+
+.search{
+	width:500px;
+	height:35px;
+	border:none;
+	font-size: 20px;
+}
+
+.micro{
+	margin-right:7px;
+}
+
+.buttons{
+	display:flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  margin: auto;
+	  max-width: 240px;
+	  margin-top:30px;
+	  font-size: 13px;
+	  color: #444 ;
+
+}
+
+.googlesearch{
+  background-color:#EFEFEF;
+     padding: 0px 10px;
+     border-radius: 5px; 
+}
+
+.googlesearch:hover{
+	color:black;
+	border:1px solid #CCCCCC;
+
+}
+
+.lucky{
+  background-color:#EFEFEF;
+     padding: 0px 10px;
+     border-radius: 5px; 
+}
+
+.lucky:hover{
+	color:black;
+	border:1px solid #CCCCCC;
+}
+
+.bottombar{
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-end;
+	background-color:#EFEFEF;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	border-top:1px solid #D3D3D3;
+}
+
+.france{
+	display:flex;
+	align-items:center;
+	height:40px;
+	color:#808080;
+	margin-left: 25px;
+	font-size:14px;
+}
+
+.bbbar{
+	height:40px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	border-top:1px solid #D3D3D3;
+}
+
+.left{
+	display: flex;
+}
+
+.right{
+	display: flex;
+}
+
+.advertising{
+	margin-left:25px;
+}
+
+.advertising, .Business, .About, .How, .Consumer, .Privacy, .Terms, .Settings {
+	display:flex;
+	margin-right:30px;
+	text-decoration: none;
+	color: #666666;
+	font-size: 14px;
+}
+
+.advertising:hover, .Business:hover, .About:hover, .How:hover, .Consumer:hover, .Privacy:hover, .Terms:hover, .Settings:hover {
+	text-decoration:underline;
+}
+
+
+
